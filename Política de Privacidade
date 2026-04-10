@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidade — Guard</title>
+  </head>
+  <body>
+    <h1>Política de Privacidade — Guard</h1>
+
+    <p>
+      O <strong>Guard</strong> é um app de uso <strong>corporativo</strong> para
+      usuários autorizados pela organização contratante. Esta política resume o
+      que o aplicativo pode tratar; retenção, local de armazenamento no servidor e
+      bases legais cabem ao <strong>controlador</strong> (sua empresa). Dúvidas:
+      canal de privacidade ou TI indicado pela organização.
+    </p>
+
+    <h2>Dados tratados</h2>
+    <p>Entre outros, conforme a operação e a API da organização:</p>
+    <ul>
+      <li>Nome, e-mail, telefone (quando aplicável), tipo de usuário e permissões</li>
+      <li>Token/sessão de autenticação e dados guardados localmente para manter o login</li>
+      <li>Conteúdo operacional que você envia (textos, imagens, localização, leituras de QR etc.)</li>
+    </ul>
+
+    <h2>Finalidades</h2>
+    <ul>
+      <li>Login, perfil de acesso e funcionamento das funções contratadas</li>
+      <li>Rondas, ocorrências, chat, avisos, encomendas e eventos em tempo real (WebSocket), quando habilitados</li>
+      <li>Registros visíveis a outros usuários <strong>da mesma organização</strong>, conforme regras do back-end</li>
+    </ul>
+
+    <h2>Permissões do dispositivo</h2>
+    <p>
+      <strong>Localização</strong> (possivelmente em segundo plano): pânico,
+      posição na operação/mapa e monitoramento com serviço em primeiro plano.
+      <strong>Câmera</strong>: ocorrências, QR e captura no chat.
+      <strong>Galeria</strong>: ex. QR a partir de foto.
+      <strong>Notificações</strong> e <strong>foreground service</strong> (Android):
+      alertas e monitoramento. Tudo depende do que você autorizar no sistema e das
+      políticas da empresa.
+    </p>
+
+    <h2>Mapas e terceiros</h2>
+    <p>
+      Mapas usam blocos do <strong>OpenStreetMap</strong> (<code>tile.openstreetmap.org</code>);
+      veja <a href="https://wiki.openstreetmap.org/wiki/Privacy_Policy" rel="noopener noreferrer">política do OSM</a>.
+      Não há, na base do projeto, Firebase Crashlytics nem SDK de anúncios; builds
+      customizados devem declarar extras à parte.
+    </p>
+
+    <h2>Tráfego e segurança</h2>
+    <p>
+      Dados seguem para os servidores HTTPS/WSS configurados pela organização. Sem
+      venda de dados pelo app. Comunicação com backend via HTTPS/WSS; dados no
+      aparelho ficam sob o SO e o que o app persiste localmente.
+    </p>
+
+    <h2>LGPD, público e alterações</h2>
+    <p>
+      Direitos (acesso, correção, eliminação etc.): solicite ao
+      <strong>controlador</strong>. App não é destinado a crianças. Esta política
+      pode ser atualizada; mudanças relevantes costumam ser comunicadas pela
+      organização.
+    </p>
+
+    <h2>Contato</h2>
+    <p>
+      Privacidade no uso corporativo: canal da sua empresa. Contato comercial de
+      referência (ajuste): <strong>comercial@roboflex.com.br</strong>
+    </p>
+  </body>
+</html>
